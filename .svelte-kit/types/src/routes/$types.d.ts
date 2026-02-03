@@ -20,5 +20,7 @@ export type PageServerData = null;
 export type PageLoad<OutputData extends OutputDataShape<PageParentData> = OutputDataShape<PageParentData>> = Kit.Load<RouteParams, PageServerData, PageParentData, OutputData, RouteId>;
 export type PageLoadEvent = Parameters<PageLoad>[0];
 export type PageData = Expand<Omit<PageParentData, keyof PageParentData & EnsureDefined<PageServerData>> & OptionalUnion<EnsureDefined<PageParentData & EnsureDefined<PageServerData>>>>;
+export type PageProps = { params: RouteParams; data: PageData }
 export type LayoutServerData = null;
 export type LayoutData = Expand<LayoutParentData>;
+export type LayoutProps = { params: LayoutParams; data: LayoutData; children: import("svelte").Snippet }
