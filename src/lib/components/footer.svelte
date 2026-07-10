@@ -149,17 +149,7 @@
        hemanshuypatil@gmail.com
       </a>
      
-      <br />
-      <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-      <!-- svelte-ignore a11y-click-events-have-key-events -->
-      <p
-        on:click={handlecopy}
-        style="margin-top: 10px;"
-        class="button large-text"
-        bind:this={fullphonenuber}
-      >
-        +91 7058026892
-      </p>
+     
     </div>
 
     <div class="credits-wrapper" bind:this={creditsElement}>
