@@ -101,7 +101,7 @@
 							<a href="mailto:hemanshuypatil@gmail.com" target="_blank" in:mobileTransitionSwitcher={{ delay: 350 }}>Email</a>
 						</li>
 						<li use:introAnimation={{ delay: 1300 }}>
-							<a href="https://github.com/HemanshuYPatil" target="_blank" in:mobileTransitionSwitcher={{ delay: 400 }}>Github</a>
+							<a href="https://github.com/hemanshulabs" target="_blank" in:mobileTransitionSwitcher={{ delay: 400 }}>Github</a>
 						</li>
 						{#if $page.url.searchParams.get('dev') === 'e4b1c7a93f5d4e1298ab77cd9130ff62'}
 							<li use:introAnimation={{ delay: 1400 }}>
